@@ -1,0 +1,22 @@
+name: CI
+on:
+  push:
+    paths:
+      - '.github/**'
+  pull_request:
+    branches:
+      - dev
+      - master
+    paths:
+      - '.github/**'
+  
+jobs:
+  ### Limits push tp Master branch
+  limit_master_pr:
+    runs-on: ${{ matrix.os }}
+    name: Limit PR to master from any branch
+    steps:
+      - uses: LukBukkit/action-pr-limits@v1
+        with:
+          whitelist: |
+            dev
