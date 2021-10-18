@@ -1,3 +1,7 @@
+.head{
+    font-size: 28px;
+    margin-right: 2px;
+}
 body{
     background-color: rgb(27, 27, 27);
 
@@ -25,12 +29,12 @@ span {
     width: 140px;
     height: 140px;
     margin: 12px;
-    background-color: #080808;
+    background-color: #635f5f;
   }
-img{
+/* img{
     border-radius: 4px;
     padding: 5px;
-}
+} */
 .button{
-    padding-right: 0em;
+    padding-inline-end: 1px;
 }
