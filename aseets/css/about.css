@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(27, 27, 27);
+
+}
+
+h1{
+    color: aliceblue;
+    padding: 5px;
+}
+
+.title{
+    font-size: 80px;
+}
+p{
+    color: aliceblue;
+    text-size-adjust: 40px;
+    padding: 5px;
+}
+
+ul{
+    color: aliceblue;
+}
+span {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    margin: 12px;
+    background-color: #080808;
+  }
+img{
+    border-radius: 4px;
+    padding: 5px;
+}
+.button{
+    padding-right: 0em;
+}
