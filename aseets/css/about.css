@@ -1,11 +1,33 @@
+ *,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
 .head{
     font-size: 28px;
-    margin-right: 2px;
+    margin-left: px;
 }
 body{
+    width: 100%;
+    height: 100vh;
     background-color: rgb(27, 27, 27);
+    display: flex;
 
 }
+
+/* .container{
+    width: 100%;
+    max-width: 120rem;
+    margin: auto;
+    padding: 0 1.5rem;
+} */
 
 h1{
     color: aliceblue;
@@ -20,7 +42,10 @@ p{
     text-size-adjust: 40px;
     padding: 5px;
 }
-
+.team{
+    text-size-adjust: 40px;
+    padding: 5px;
+}
 ul{
     color: aliceblue;
 }
@@ -37,4 +62,8 @@ span {
 } */
 .button{
     padding-inline-end: 1px;
+}
+
+.container{
+    column-gap: 40px;
 }
