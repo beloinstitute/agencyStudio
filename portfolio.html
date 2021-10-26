@@ -1,39 +1,78 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="aseets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="aseets/css/portfolio.css" rel="stylesheet">
+    <!-- <link href="aseets/css/bootstrap.min.css" rel="stylesheet" /> -->
+    <link href="aseets/css/portfolio.css" rel="stylesheet" />
 
-    <title>Starter</title>
-</head>
+    <title>Agency Studio</title>
+  </head>
 
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10"></div>
-            <div class="col-md-1"></div>
-
-
-
+  <body>
+    <header class="navbar">
+      <div class="nav">
+        <div>
+          <h1>Works.</h1>
+          <p>Things we've made</p>
         </div>
-        <div class="row"></div>
-        <div class="row"></div>
-        <div class="row"></div>
-
-
-
-
-    </div>
+        <button class="primary-btn">View All</button>
+      </div>
+    </header>
+    <section class="portfolio">
+      <div class="portfolio-card">
+        <img src="/aseets/images/Cootels.png" alt="" class="card-img" />
+        <h2>Cootels</h2>
+        <p>
+          Cootels is a cozzy and down to earth cootage hotel located in Mombasa,
+          Kenya. It is one of the largest privately held vacation destination in
+          Mombasa.
+        </p>
+        <button class="portfolio-btn">
+          <a href="https://cootels.netlify.app" target="_blank"
+            >Visit Cootels</a
+          >
+        </button>
+      </div>
+      <div class="portfolio-card">
+        <img src="/aseets/images/Rework.png" alt="" class="card-img" />
+        <h2>Rework</h2>
+        <p>
+          Wellspace is a remote working space that is thoughtfully designed to
+          increase casual collisions and heighten productivity.
+        </p>
+        <button class="portfolio-btn">
+          <a href="https://reworks.netlify.app/" target="_blank"
+            >Visit Rework</a
+          >
+        </button>
+      </div>
+      <div class="portfolio-card">
+        <img
+          src="/aseets/images/Mental Health Online.png"
+          alt=""
+          class="card-img"
+        />
+        <h2>Mental Health</h2>
+        <p>
+          MHealth offers a holstic approach to mental health by providing access
+          to health care for mental, neurological, and substance use disorders.
+        </p>
+        <button class="portfolio-btn">
+          <a href="http://mentalhealthonline.netlify.app/" target="_blank"
+            >Visit MHealth</a
+          >
+        </button>
+      </div>
+    </section>
+    <section class="contact">
+      <h1>We would love to work with you.</h1>
+      <button class="primary-btn">Contact Us</button>
+    </section>
     <script src="aseets/js/bootstrap.bundle.min.js"></script>
     <script src="aseets/js/portfolio.js"></script>
-
-</body>
-
+  </body>
 </html>
