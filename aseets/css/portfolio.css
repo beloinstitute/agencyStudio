@@ -29,8 +29,8 @@ img {
 
 .nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .nav h1 {
@@ -127,4 +127,13 @@ img {
 .contact h1 {
   font-size: 3rem;
   margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    margin: 5rem 2rem;
+  }
+  .portfolio {
+    margin: 0 2rem;
+  }
 }
