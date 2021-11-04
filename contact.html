@@ -19,76 +19,62 @@
 </head>
 
 <body>
+
+   
+
 <div class="container-fluid">
     <div class="row ">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-auto " id="navbarNav">
+                <ul class="navbar-nav ms-auto ">
+    
+                    <li class="nav-item ">
+                    <a class="nav-link" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link " href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    
+                </ul>
+                </div>
+            </div>
+            </nav>
         <div class="col-lg-7 col-md-6 col-sm-12 bg-dark d-flex flex-column min-vh-100 justify-content-center">
             <div class="text-body  ">
-                <h4>Just say hi!</h4>
+                <h4 class="mt-5">Just say hi!</h4>
                 <p>Tell us more about you and we'll contact you soon :)</p>
             </div>
             
            
-                <form 
-                method="POST" class="row g-2 "
-                action="https://formspree.io/f/mwkayzzz">
+               
 
-                   
-                    <div class="input-group col-lg-5 col-md-5 col-sm-12 mx-2">
-                        <label class="text-white form-text">Name</label>
-                        <input class="input--style-3" type="text" required  name="name">
-                    </div>
-                    <div class="input-group col-lg-5 col-md-5 col-sm-12 ml-5 ">
-                        <label class="text-white form-text">First Name</label>
-                        <input class="input--style-3" type="text" required  name="Firstname">
-                    </div>
-        
-                    <div class="input-group col-lg-5 col-md-5 col-sm-12 mx-2 ">
-                        <label class="text-white form-text ">Email</label>
-                        <input class="input--style-3 " name="_replyto" required type="email"  >
-                    </div>
-                   
-                    <div class="input-group col-lg-5 col-md-5 col-sm-12 ml-5">
-                        <label class="text-white form-text">Phone Number</label>
-                        <input class="input--style-3" type="phoneNumber"  name="number">
-                    </div>
-                    <div class="input-group col-lg-10 col-md-5 col-sm-12 ml-4">
-                        <label class="text-white form-text">Message</label>
-                        <input class="input--style-3" required type="message"  name="message">
-                    </div>
-                    <div class="p-t-10">
-                        <button class="button mr-5 px-5  my-4 text-body float-right" type="submit">Submit</button>
-                    </div>
+                <form action="https://formspree.io/f/mwkayzzz"  method="post">
+                    <label class="text-white">Your Name </label>
+                    <input type="text" required name="name" placeholder="john doe" width="100px;">
+                    <label class="text-white" >Email</label>
+                    <input type="text" required name="email" placeholder="john@gmail.com">
+                    <label class="text-white" >Contact Number </label>
+                    <input type="text" name="contact" placeholder="+254714***">
+                    <label class="text-white">  Message </label>
+                    <input type="text" name="contact" placeholder="Message">
+                    <button class="button mr-5 px-5  my-4 text-body" type="submit">Submit</button>
+
                 </form>
-    
-         
-        
+       
+       
         </div>
 
         <!-- Contact details  section -->       
 
         <div class="col-lg-5 col-md-5 col-sm-12 bg-light">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse ms-auto" id="navbarNav">
-                    <ul class="navbar-nav ms-auto ">
-        
-                        <li class="nav-item ">
-                        <a class="nav-link" aria-current="page" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link " href="#">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                        </li>
-                        
-                    </ul>
-                    </div>
-                </div>
-                </nav>
+          
                 <div class=" d-flex flex-column min-vh-100 justify-content-center ml-4">
                     <h5 class=" fs-3 text-body text-black fw-bold  mb-3   ">Contact Information.</h5>
                     <small class="text-body fs-6">523 Rosemary Street</small>
